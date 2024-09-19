@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(15, 15, 15);
-    font-family: 'Arial', sans-serif; /* General fallback font for body */
+    font-family: 'Arial', sans-serif;
     font-size: larger;
     color: rgb(255, 221, 87);
     margin: 0;
@@ -15,32 +15,37 @@ body {
 h1 { 
     color: #ffffff; 
     font-size: 80px;
-    margin-bottom: 10px; 
+    margin: 20px 0; 
     text-align: center;
-    font-family: 'Gotham Bold', sans-serif; /* Font specifically for heading */
+    font-family: 'Gotham Bold', sans-serif;
+    border: 5px solid #FFBB12;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 221, 87, 0.1);
 }
 
 .container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 90%; /* Adjusted to take almost the full window */
+    width: 90%;
     margin: 0 auto;
     padding: 20px 0;
-    height: 90vh; /* Takes up almost the full vertical height of the viewport */
+    height: 90vh;
 }
 
 .image-section {
-    flex-basis: 45%; /* Image takes up about 45% of the width */
+    flex-basis: 45%;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .image-section img {
     width: 100%;
-    height: 100%; /* Adjusts the image to fill the section */
+    height: auto;
     border-radius: 10px;
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    object-fit: cover;
 }
 
 .image-section figcaption {
@@ -52,18 +57,21 @@ h1 {
 }
 
 .text-section {
-    flex-basis: 50%; /* Text takes up about 50% of the width */
+    flex-basis: 50%;
     text-align: left;
     padding: 20px;
 }
 
 p {
-    font-family: 'Times New Roman', serif; /* Different font for paragraph text */
+    font-family: 'Times New Roman', serif;
     font-size: 120%;
+    line-height: 1.6;
 }
 
 p.important {
     border: 2px solid #FFBB12;
     padding: 10px;
     margin-top: 10px;
+    border-radius: 5px;
+    background: rgba(255, 221, 87, 0.1);
 }
