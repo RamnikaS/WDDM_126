@@ -3,6 +3,8 @@ body {
     font-family: Gotham, sans-serif;
     font-size: larger;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 h1 { 
@@ -15,22 +17,24 @@ h1 {
 .container {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-between;
+    width: 90%; /* Adjusted to take almost the full window */
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 90vh; /* Takes up almost the full vertical height of the viewport */
 }
 
 .image-section {
-    max-width: 300px; /* Adjusted width for the image */
-    text-align: center;
+    flex-basis: 45%; /* Image takes up about 45% of the width */
     padding: 10px;
     border-radius: 10px;
-    margin-right: 20px; /* Add space between image and text */
 }
 
 .image-section img {
     width: 100%;
-    height: auto;
+    height: 100%; /* Adjusts the image to fill the section */
     border-radius: 10px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
 }
 
 .image-section figcaption {
@@ -38,15 +42,16 @@ h1 {
     font-style: italic;
     font-size: smaller;
     color: white;
+    text-align: center;
 }
 
 .text-section {
-    max-width: 500px;
+    flex-basis: 50%; /* Text takes up about 50% of the width */
     text-align: left;
+    padding: 20px;
 }
 
 p {
-    padding-top: 50px; /* Adjusted padding */
     font-size: 120%;
 }
 
