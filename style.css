@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Gotham Bold';
+    src: local('Gotham Bold'), url('path-to-gotham-bold.woff2') format('woff2');
+}
+
 body {
     background-color: rgb(35, 35, 35);
-    font-family: Gotham, sans-serif;
+    font-family: 'Arial', sans-serif; /* General fallback font for body */
     font-size: larger;
     color: white;
     margin: 0;
@@ -12,6 +17,7 @@ h1 {
     font-size: 80px;
     margin-bottom: 10px; 
     text-align: center;
+    font-family: 'Gotham Bold', sans-serif; /* Font specifically for heading */
 }
 
 .container {
@@ -52,6 +58,7 @@ h1 {
 }
 
 p {
+    font-family: 'Times New Roman', serif; /* Different font for paragraph text */
     font-size: 120%;
 }
 
