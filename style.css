@@ -4,16 +4,16 @@
 }
 
 body {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(15, 15, 15);
     font-family: 'Arial', sans-serif; /* General fallback font for body */
     font-size: larger;
-    color: white;
+    color: rgb(255, 221, 87);
     margin: 0;
     padding: 0;
 }
 
 h1 { 
-    color: #FFBB12; 
+    color: #ffffff; 
     font-size: 80px;
     margin-bottom: 10px; 
     text-align: center;
@@ -47,7 +47,7 @@ h1 {
     margin-top: 10px;
     font-style: italic;
     font-size: smaller;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
