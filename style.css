@@ -93,10 +93,10 @@ img{
     color: white;
 }
 img{
-    transition: width 2s, height 4s;
+    transition: width 2s, height 6s;
 }
-img:hover{
-    
+.img1:hover{
+    transform: rotate(180deg);
 }
 .br{
     border: outset #FFBB12;
