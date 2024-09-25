@@ -92,12 +92,12 @@ img{
     text-align: center;
     color: white;
 }
-/* img{
+img{
     transition: width 2s, height 6s;
-} */
-/* .img1:hover{
+}
+.img1:hover{
     transform: rotate(180deg);
-} */
+}
 .br{
     border: outset #FFBB12;
 }
